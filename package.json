@@ -1,0 +1,30 @@
+{
+  "name": "SolanaTokenSignal_CallbackRegister",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev src/index.ts",
+    "server": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "@shyft-to/js": "^0.2.39",
+    "@types/express": "^4.17.21",
+    "api": "^6.1.1",
+    "axios": "^1.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^18.7.14",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "rewire": "^6.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.3"
+  }
+}
